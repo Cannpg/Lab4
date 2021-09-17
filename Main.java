@@ -13,7 +13,9 @@ class Main {
 
     Random rand = new Random();
 
-    int randomNum = rand.nextInt(51);
+    int maxVal = 50;
+
+    int randomNum = rand.nextInt(maxVal +1);
     System.out.println("The random number is: " + randomNum);
 
     int decNum = randomNum;
